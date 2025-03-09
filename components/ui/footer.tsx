@@ -15,7 +15,7 @@ const footer = () => {
         <div className="flex max-xs:flex-col gap-1 justify-center text-center text-sm text-zinc-500 dark:text-zinc-400 transition-all">
             <div>Use this tool responsibly and ethically.</div>
             <div>
-                Made with {theme === "dark" ? "🤍" : "🖤"} by <a className={`${theme ==="dark" ? "text-white" : "text-black"} font-semibold hover:underline`} href="https://t.me/GodLonewolf">Lonewolf</a> and <a className={`${theme ==="dark" ? "text-white" : "text-black"} font-semibold hover:underline`} href="https://t.me/AnusRaper">Krapple</a> 
+                Made with {theme === "dark" ? "🤍" : "🖤"} by <a className={`${theme ==="dark" ? "text-white" : "text-black"} font-semibold hover:underline`} href="https://t.me/GodLonewolf">Lonewolf</a>, <a className={`${theme ==="dark" ? "text-white" : "text-black"} font-semibold hover:underline`} href="https://t.me/AnusRaper">Krapple</a> and <a className={`${theme ==="dark" ? "text-white" : "text-black"} font-semibold hover:underline`} href="https://t.me/joavo1337">Mask</a> 
             </div>
         </div>
     );
